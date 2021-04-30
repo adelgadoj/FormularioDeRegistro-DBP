@@ -1,0 +1,57 @@
+body{
+    display: block;
+    font-family: 'Prompt', sans-serif;
+    background-image: url(images/fondo.jpg);
+    background-size: contain;
+    color: white;
+}
+.cabecera{
+    background-color: rgba(10, 10, 10, 0.486);
+    text-align: center;
+    width: 40%;
+    padding: 0% 10%;
+    margin-left: 20%;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.formulario{
+    background-color: rgba(10, 10, 10, 0.486);
+    padding: 3% 10%;
+    width: 40%;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Prompt', sans-serif;
+}
+input{
+    background: rgba(107, 103, 107, 0.432);
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+.enviar{
+    background: rgb(12, 12, 12);
+    margin-left: 50%;
+    color: rgb(255, 255, 255);
+    font-family: 'Prompt', sans-serif;
+    font-size: 25px;
+    border-color: white;
+}
+textarea{
+    width: 99%;
+    height: 50px;
+    font-family: 'Prompt', sans-serif;
+    background: rgba(107, 103, 107, 0.432);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+select{
+    background: rgba(107, 103, 107, 0.432);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    font-family: 'Prompt', sans-serif;
+}

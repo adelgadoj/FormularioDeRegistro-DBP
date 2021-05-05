@@ -22,7 +22,7 @@ https://formularioregistrodbp20173455.netlify.app/
         <h1>FORMULARIO DE REGISTRO</h1>
     </header>
     <div class="formulario">
-        <form action="." method="GET">
+        <form action="mailto:toggo384@gmail.com" method="POST" enctype="text/plain">
             <label for="nombre">Nombre: </label>
             <input type="text" id="nombre" name="nombre" value=" "maxlength="50">
             <br><br>
@@ -33,10 +33,10 @@ https://formularioregistrodbp20173455.netlify.app/
     
             <label for="genero">Genero :</label>
     
-            <input type="radio" id="hombre" name="sexo">
+            <input type="radio" id="hombre" name="sexo" value="hombre">
             <label for="hombre">Hombre</label>
     
-            <input type="radio" id="mujer" name="sexo">
+            <input type="radio" id="mujer" name="sexo" value="mujer">
             <label for="mujer">Mujer</label> <br><br>
     
             <label for="email">email: </label>
@@ -54,13 +54,13 @@ https://formularioregistrodbp20173455.netlify.app/
             <select name="poblacion" id="poblacion">
                 <option value="arequipa">Arequipa</option>
                 <option value="cusco">Cusco</option>
-                <option value="lima">Lima</option>
+                <option selected value="lima">Lima</option>
                 <option value="puno">Puno</option>
             </select>
             <br><br>
             
             <label for="descripcion" class="label_Descript">Descripcion: </label>
-            <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10">Añade una breve descripcion...</textarea>
             <br><br>
     
             <input type="submit" class="enviar" value="Enviar">

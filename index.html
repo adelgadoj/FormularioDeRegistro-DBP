@@ -22,13 +22,13 @@ https://formularioregistrodbp20173455.netlify.app/
         <h1>FORMULARIO DE REGISTRO</h1>
     </header>
     <div class="formulario">
-        <form action="mailto:toggo384@gmail.com" method="POST" enctype="text/plain">
+        <form action="" method="GET" enctype="text/plain" id="formulario">
             <label for="nombre">Nombre: </label>
-            <input type="text" id="nombre" name="nombre" value=" "maxlength="50">
+            <input type="text" id="nombre" name="nombre" maxlength="50" placeholder="Juan">
             <br><br>
     
             <label for="apellidos">Apellidos: </label>
-            <input type="text" id="apellidos" name="apellidos" value="" maxlength="50">
+            <input type="text" id="apellidos" name="apellidos" placeholder="Perez Gonzales" maxlength="50">
             <br><br>
     
             <label for="genero">Genero :</label>
@@ -40,15 +40,7 @@ https://formularioregistrodbp20173455.netlify.app/
             <label for="mujer">Mujer</label> <br><br>
     
             <label for="email">email: </label>
-            <input type="email" id="email" name="email" value=""><br><br>
-    
-            <input type="checkbox" id="checkbox1" name="checkbox1" checked>
-            <label for="checkbox1">Deseo recibir información sobre novedades y ofertas</label>
-            <br><br>
-    
-            <input type="checkbox" id="checkbox2" name="checkbox2" >
-            <label for="checkbox2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
-            <br><br>
+            <input type="text" id="email" name="email" value="" placeholder="email@hotmail.com"><br><br>
     
             <label for="poblacion">Poblacion: </label>
             <select name="poblacion" id="poblacion">
@@ -60,11 +52,20 @@ https://formularioregistrodbp20173455.netlify.app/
             <br><br>
             
             <label for="descripcion" class="label_Descript">Descripcion: </label>
-            <textarea name="descripcion" id="descripcion" cols="30" rows="10">Añade una breve descripcion...</textarea>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Añade una decripcion..."></textarea>
+            <br><br>
+
+            <input type="checkbox" id="checkbox1" name="checkbox1" checked>
+            <label for="checkbox1">Deseo recibir información sobre novedades y ofertas</label>
+            <br><br>
+    
+            <input type="checkbox" id="checkbox2" name="checkbox2" >
+            <label for="checkbox2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
             <br><br>
     
             <input type="submit" class="enviar" value="Enviar">
         </form>
     </div>
+    <script src="validacion.js"></script>
 </body>
 </html>
